@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    "group:vite"
+  ],
+  "ignorePresets": ["docker:pinDigests"],
+  "repositories": ["keliansb/renovate-vite-grouped"],
+  "platform": "github",
+  "prConcurrentLimit": 50,
+  "prHourlyLimit": 20,
+  "separateMinorPatch": true,
+}
