@@ -9,5 +9,5 @@
   "platform": "github",
   "prConcurrentLimit": 50,
   "prHourlyLimit": 20,
-  "separateMinorPatch": true,
+  "separateMinorPatch": true
 }
